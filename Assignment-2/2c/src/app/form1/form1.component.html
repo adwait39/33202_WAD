@@ -1,0 +1,98 @@
+<div class="center">
+<div class>
+<form [formGroup]="Form1">
+    <header>
+    <div class="head">
+            <h1>Register Here</h1>
+            
+    </div>
+
+    </header>
+
+    <div class="con-tent">
+        <h3>Contact Information</h3>
+        <p>Please fill out the Information below.</p>
+    </div>
+
+    <div class="Name">
+        <div class="form-group"> 
+            <label>First Name </label> 
+            <input [class.is-invalid] = "Form1.get('firstname')?.invalid" type="text" class="form-control" formControlName="firstname"> 
+            <small [class.d-none]="Form1.get('firstname')?.valid" class="textdanger">First Name is required</small> 
+        </div> 
+        
+        <div class="form-group"> 
+            <label>Last Name </label> 
+            <input [class.is-invalid] = "Form1.get('lastname')?.invalid" type="text" class="form-control" formControlName="lastname"> 
+            <small [class.d-none]="Form1.get('lastname')?.valid" class="textdanger">Last Name is required</small> 
+        </div> 
+    </div>
+
+    <div class="pass">
+        <div class="form-group">
+            <label>Password </label>
+            <input [class.is-invalid] = "Form1.get('password')?.invalid && Form1.get('password')?.touched" type="password" class="form-control" formControlName="password">
+            <small [class.d-none]="Form1.get('password')?.valid || Form1.get('password')?.untouched" class="text-danger">Password is required</small>
+          </div>
+
+          <div class="form-group">
+            <label> Confirm Password </label>
+            <input [class.is-invalid] = "Form1.get('confirmpassword')?.invalid && Form1.get('confirmpassword')?.touched" type="password" class="form-control" formControlName="confirmpassword">
+            <small [class.d-none]="Form1.get('confirmpassword')?.valid || Form1.get('passowrd')?.untouched" class="text-danger">Confirmed Password is not same as Password</small>
+          </div>
+    </div>
+
+    <div class="form-group"> 
+        <label>Email </label> 
+        <input [class.is-invalid] = "Form1.get('email')?.invalid" type="text" class="form-control" formControlName="email"> 
+    </div> 
+
+    <div class="form-group"> 
+        <label>Phone </label> 
+        <input [class.is-invalid] = "Form1.get('phone')?.invalid" type="text" class="form-control" formControlName="phone"> 
+        <small [class.d-none]="Form1.get('phone')?.valid" class="textdanger">Phone Number is required</small> 
+    </div> 
+
+    <div class="perosnal">
+
+        <div class="form-group">
+            <label>State</label>
+            <select class="form-select" formControlName="state">
+              <option value="" disabled selected>Choose a state</option>
+              <option value="maharashtra">Maharashtra</option>
+              <option value="kerala">Kerala</option>
+              <option value="tamil nadu">Tamil Nadu</option>
+            </select>
+          </div>
+          
+        <div class="form-group"> 
+            <label>City </label> 
+            <input [class.is-invalid] = "Form1.get('city')?.invalid" type="text" class="form-control" formControlName="city"> 
+            <small [class.d-none]="Form1.get('city')?.valid" class="textdanger">City is required</small> 
+        </div> 
+
+        <div class="form-group"> 
+            <label>Zip Code </label> 
+            <input [class.is-invalid] = "Form1.get('zip')?.invalid" type="text" class="form-control" formControlName="zip"> 
+            <small [class.d-none]="Form1.get('zip')?.valid" class="textdanger">Zip Code is required</small> 
+        </div> 
+
+    </div>
+
+    <div class="pers">
+        <div class="form-group"> 
+            <label>Address </label> 
+            <input [class.is-invalid] = "Form1.get('Address')?.invalid" type="text" class="form-control" formControlName="Address"> 
+            <small [class.d-none]="Form1.get('Address')?.valid" class="textdanger">Address is required</small> 
+        </div> 
+    
+    </div>
+
+    
+
+    <button class="ton">Submit</button>
+
+</form>
+
+</div>
+</div>
