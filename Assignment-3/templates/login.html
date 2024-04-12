@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="images/x-icon" href="./images/burger.png" />
+    <title>Foodies</title>
+</head>
+<link rel="stylesheet" href="/styles/login.css" />
+
+<body>
+    <div class="background-container"></div>
+    <div class="container">
+        <form id="login">
+            <h1 id="head">Login</h1>
+            <p class="text required">Username</p>
+            <input required type="text" placeholder="username" class="input" id="username" />
+            <br />
+            <p class="text required">Password</p>
+            <input required type="password" placeholder="password" class="input" id="password" />
+            <br />
+            <button id="btn" onclick="login()">Sign in</button>
+            <p>Does not have account ?</p>
+            <button id="btn-up" type="button" onclick="toggleForm()">
+                Sign up
+            </button>
+        </form>
+
+        <form id="signup">
+            <h1 id="head">Sign up</h1>
+            <p class="text required">Username</p>
+            <input type="text" required placeholder="username" class="input" id="signup-user" />
+            <br />
+            <p class="text required">Email</p>
+            <input type="email" required placeholder="email" pattern=".+@gmail.com" class="input" id="signup-email" />
+            <br />
+            <p class="text required">Password</p>
+            <input type="password" required placeholder="password" class="input" id="signup-password" />
+            <br />
+            <p class="text required">Name</p>
+            <input type="text" required placeholder="name" class="input" id="signup-user" />
+            <br />
+            <p class="text required">Address</p>
+            <input type="text" placeholder="Address" class="input" id="signup-user" />
+            <br />
+            <p class="text required">City</p>
+            <select id="signup-user" class="input" name="city">
+                <option value="">Select City</option>
+                <option value="Alipur">Alipur</option>
+                <option value="Bawana">Bawana</option>
+                <option value="Central Delhi">Central Delhi</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Deoli">Deoli</option>
+                <option value="East Delhi">East Delhi</option>
+                <option value="Karol Bagh">Karol Bagh</option>
+                <option value="Najafgarh">Najafgarh</option>
+                <option value="Nangloi Jat">Nangloi Jat</option>
+                <option value="Narela">Narela</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="North Delhi">North Delhi</option>
+                <option value="North East Delhi">North East Delhi</option>
+                <option value="North West Delhi">North West Delhi</option>
+                <option value="Pitampura">Pitampura</option>
+                <option value="Rohini">Rohini</option>
+                <option value="South Delhi">South Delhi</option>
+                <option value="South West Delhi">South West Delhi</option>
+                <option value="West Delhi">West Delhi</option>
+            </select>
+            <br />
+            <p class="text required">Pin code</p>
+            <input  required placeholder="Pincode"   inputmode="numeric" maxlength="4" class="input" id="signup-user" />
+            <br />
+            <p class="text required">State</p>
+            <select id="signup-user" class="input" name="state">
+                <option value="">Select state</option>
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CH">Chandigarh</option>
+                <option value="CT">Chhattisgarh</option>
+                <option value="DN">Dadra and Nagar Haveli</option>
+                <option value="DD">Daman and Diu</option>
+                <option value="DL">Delhi</option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat</option>
+                <option value="HR">Haryana</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="JK">Jammu and Kashmir</option>
+                <option value="JH">Jharkhand</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="LA">Ladakh</option>
+                <option value="LD">Lakshadweep</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="MN">Manipur</option>
+                <option value="ML">Meghalaya</option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OR">Odisha</option>
+                <option value="PY">Puducherry</option>
+                <option value="PB">Punjab</option>
+                <option value="RJ">Rajasthan</option>
+                <option value="SK">Sikkim</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TG">Telangana</option>
+                <option value="TR">Tripura</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="UT">Uttarakhand</option>
+                <option value="WB">West Bengal</option>
+            </select>
+            <br />
+            <p class="text">DOB</p>
+            <input type="date" placeholder="birthday" class="input" id="signup-user" min="2004-01-01" />
+            <br />
+            <p class="text">Gender</p>
+            <input type="radio" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" />
+            <label for="female">Female</label>
+            <br />
+            <button id="btn" onclick="signup()">Register</button>
+            <p>Already have an account ?</p>
+            <button id="btn-up" type="button" onclick="toggleForm()">Login</button>
+        </form>
+    </div>
+    <script src="/script/login.js"></script>
+</body>
+
+</html>
