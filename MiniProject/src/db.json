@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "4858"
+    }
+  ],
+  "signup": [
+    {
+      "id": "6326",
+      "name": "Adwait Desai",
+      "email": "adwait393@gmail.com",
+      "mobile": 8530183975,
+      "password": "adwait@393"
+    },
+    {
+      "id": "c228",
+      "name": "Akshata",
+      "email": "akshata.madane702@gmail.com",
+      "mobile": 9834374899,
+      "password": "Akshu"
+    }
+  ],
+  "eventsdata": [
+    {
+      "id": "817c"
+    },
+    {
+      "id": "8ed3",
+      "name": "Adwait Desai",
+      "email": "adwait393@gmail.com",
+      "address": "Kothrud, Pune",
+      "mobile": 8530183975,
+      "eventName": "Birthday",
+      "eventVenue": "Verandah, Kothrud",
+      "eventDate": "2024-04-11",
+      "eventTypeCake": true,
+      "eventTypeWedding": "",
+      "eventTypeHallBooking": ""
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
