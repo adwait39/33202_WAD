@@ -1,0 +1,226 @@
+.nav9 {
+    position: absolute;
+    width: 72.22%;
+    top: 32px;
+    right: 13.95%;
+    left: 13.82%;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    height: 70px;
+  }
+  .a3p9,
+  .about9,
+  .gallery13,
+  .services12 {
+    position: absolute;
+    display: inline-block;
+  }
+  .a3p9 {
+    top: 46px;
+    left: calc(50% - 43px);
+    font-family: var(--font-italiana);
+    width: 86px;
+    height: 40px;
+  }
+  .about9,
+  .gallery13,
+  .services12 {
+    top: 54px;
+    left: 225px;
+    font-size: var(--font-size-6xl);
+    width: 67px;
+    height: 23px;
+  }
+  .gallery13,
+  .services12 {
+    left: 322px;
+    width: 77px;
+  }
+  .services12 {
+    left: 429px;
+    width: 85px;
+  }
+  .prof-1-icon8 {
+    position: absolute;
+    top: 45px;
+    right: 228px;
+    width: 44px;
+    height: 44.5px;
+    object-fit: cover;
+  }
+  .left1,
+  .mid1,
+  .right1 {
+    position: absolute;
+    width: 27.42%;
+    top: 258px;
+    right: 67.78%;
+    left: 4.79%;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    height: 701px;
+  }
+  .mid1,
+  .right1 {
+    top: 256px;
+    right: 4.76%;
+    left: 67.81%;
+  }
+  .mid1 {
+    right: 36.27%;
+    left: 36.3%;
+  }
+  .our-services {
+    position: absolute;
+    top: 164px;
+    left: calc(50% - 135px);
+    font-weight: 600;
+    display: inline-block;
+    width: 271px;
+    height: 30px;
+  }
+  .cake-shop-rafiki-15,
+  .studio-photographer-bro-15,
+  .wedding-planner-amico-12 {
+    position: absolute;
+    width: 19.32%;
+    top: 330px;
+    right: 71.79%;
+    left: 8.89%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 279px;
+    object-fit: cover;
+  }
+  .cake-shop-rafiki-15,
+  .studio-photographer-bro-15 {
+    width: 21.26%;
+    top: 308px;
+    right: 39.17%;
+    left: 39.57%;
+    height: 307px;
+  }
+  .cake-shop-rafiki-15 {
+    width: 19.46%;
+    top: 334px;
+    right: 8.91%;
+    left: 71.63%;
+    height: 281px;
+    object-fit: contain;
+  }
+  .photography,
+  .wedding-venue1 {
+    position: absolute;
+    width: 19.52%;
+    top: 668px;
+    left: 8.89%;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .photography {
+    width: 15.28%;
+    top: 666px;
+    left: 42.36%;
+  }
+  .birthdaywedding,
+  .cake {
+    margin: 0;
+  }
+  .birthdaywedding-cake {
+    position: absolute;
+    width: 22.71%;
+    top: 666px;
+    left: 70.48%;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .explore {
+    position: absolute;
+    top: 22px;
+    left: 20%;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fdfdfd; /* Button background color */
+    color: #090909; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 30px; /* Adjust font size as needed */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+  }
+  .group-child58,
+  .rectangle-parent13 {
+    position: absolute;
+    width: 14.96%;
+    top: 819px;
+    right: 73.75%;
+    left: 11.29%;
+    height: 75px;
+  }
+
+  .explore1 {
+    position: absolute;
+    top: 22px;
+    left: 25%;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fdfdfd; /* Button background color */
+    color: #090909; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 30px; /* Adjust font size as needed */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+  }
+  .group-child59,
+  .rectangle-parent14 {
+    position: absolute;
+    width: 14.96%;
+    top: 823px;
+    right: 42.66%;
+    left: 42.38%;
+    height: 75px;
+  }
+
+  .explore2 {
+    position: absolute;
+    top: 22px;
+    left: 25%;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fdfdfd; /* Button background color */
+    color: #090909; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 30px; /* Adjust font size as needed */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+  }
+  .rectangle-parent15 {
+    position: absolute;
+    width: 14.96%;
+    top: 823px;
+    right: 11.29%;
+    left: 73.75%;
+    height: 75px;
+  }
+  .homef {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 1017px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-josefin-slab);
+  }
+  

@@ -1,0 +1,426 @@
+.nav {
+    height: 70px;
+    width: 1040px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    display: none;
+    max-width: 100%;
+  }
+  .about,
+  .gallery,
+  .services {
+    position: relative;
+    z-index: 1;
+  }
+  .gallery,
+  .services {
+    flex: 1;
+  }
+  .about-parent,
+  .frame-container {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 30px;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-black);
+    font-family: var(--font-josefin-slab);
+  }
+  .frame-container {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+  }
+  .a3p {
+    align-self: stretch;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame-group {
+    align-self: stretch;
+    width: 538px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 163px;
+    max-width: 100%;
+  }
+  .log-insign-in{
+
+    display: inline-block;
+  padding: 3px 20px; /* Adjust padding as needed */
+  background-color: transparent; /* Transparent background */
+  color: #060606; /* Button text color */
+  text-decoration: none; /* Remove underline from the link */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded edges */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 25px; /* Adjust font size as needed */
+   /* Specify font family */
+  font-weight: 10; /* Lighter font weight */
+  }
+  .login-signin-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 9px 0 0;
+    font-size: var(--font-size-6xl);
+    font-family: var(--font-josefin-slab);
+    color: black;
+  }
+  .frame-wrapper,
+  .nav-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .nav-parent {
+    align-self: stretch;
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    justify-content: space-between;
+    padding: 14px var(--padding-lg) var(--padding-base) var(--padding-7xl);
+    gap: var(--gap-xl);
+  }
+  .frame-wrapper {
+    width: 1140px;
+    height: 70px;
+    justify-content: flex-start;
+    padding: 0 50px;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-italiana);
+  }
+  .nice-to-meet-you,
+  .we-akshata-purvee {
+    margin: 0;
+  }
+  .nice-to-meet-container {
+    align-self: stretch;
+    position: relative;
+  }
+  .nice-to-meet-you-we-akshata-p-wrapper {
+    width: 528px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 94.5px 0 0;
+    box-sizing: border-box;
+    min-width: 528px;
+    max-width: 100%;
+  }
+  .about-us-page-pana-1 {
+    height: 469px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 398px;
+  }
+  .header-group {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0 83px;
+  }
+  .about-us-inner,
+  .frame-parent,
+  .header-group {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent {
+    width: 1223px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 55px 0;
+  }
+  .about-us-inner {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 68px 34.20000000000073px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-josefin-slab);
+  }
+  .screenshot-2024-03-11-150435-1 {
+    height: 841.6px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .screenshot-2024-03-11-150435-1-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 61.19999999999891px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .services1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .services-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-15xl);
+  }
+  .wedding-planner-amico-1 {
+    position: absolute;
+    top: 0;
+    left: 58px;
+    width: 477px;
+    height: 477px;
+    object-fit: cover;
+  }
+  .book-wedding-venues {
+    position: absolute;
+    top: 102px;
+    left: 616px;
+    display: inline-block;
+    width: 720px;
+    height: 216px;
+  }
+  .cake-shop-rafiki-1 {
+    position: absolute;
+    top: 872px;
+    left: 33px;
+    width: 493px;
+    height: 493px;
+    object-fit: contain;
+  }
+  .book-cake-services {
+    position: absolute;
+    top: 1018px;
+    left: 607px;
+    display: inline-block;
+    width: 670px;
+    height: 180px;
+  }
+  .studio-photographer-bro-1 {
+    position: absolute;
+    top: 402px;
+    left: 801px;
+    width: 494px;
+    height: 494px;
+    object-fit: cover;
+  }
+  .book-photography-services {
+    position: absolute;
+    top: 548px;
+    left: 0;
+    text-align: right;
+    display: inline-block;
+    width: 720px;
+    height: 180px;
+  }
+  .wedding-planner {
+    height: 1365px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .booking-section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-33xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .phone-label-child {
+    height: 252px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--color-gray);
+    display: none;
+    max-width: 100%;
+  }
+  .contact-number-,
+  .contact-us- {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .about-us,
+  .phone-label {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: var(--font-josefin-slab);
+  }
+  .phone-label {
+    align-self: stretch;
+    background-color: var(--color-gray);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-92xl) var(--padding-101xl) var(--padding-92xl) 128px;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+  }
+  .about-us {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-13xl) 0 0;
+    gap: 35px 0;
+    letter-spacing: normal;
+    font-size: 50px;
+    color: var(--color-black);
+  }
+  @media screen and (max-width: 1200px) {
+    .about-us-inner,
+    .frame-wrapper {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .about-us-inner {
+      padding-left: var(--padding-15xl);
+      padding-right: var(--padding-15xl);
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .nice-to-meet-container {
+      font-size: var(--font-size-13xl);
+    }
+    .nice-to-meet-you-we-akshata-p-wrapper {
+      flex: 1;
+    }
+    .header-group {
+      flex-wrap: wrap;
+    }
+    .screenshot-2024-03-11-150435-1-wrapper {
+      padding-bottom: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+    .services1 {
+      font-size: var(--font-size-21xl);
+    }
+    .book-cake-services,
+    .book-photography-services,
+    .book-wedding-venues,
+    .contact-number-,
+    .contact-us- {
+      font-size: var(--font-size-5xl);
+    }
+    .phone-label {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-container {
+      display: none;
+    }
+    .frame-group {
+      width: 249px;
+      gap: 0 81px;
+    }
+    .about-us-page-pana-1,
+    .nice-to-meet-you-we-akshata-p-wrapper {
+      min-width: 100%;
+    }
+    .header-group {
+      gap: 0 41px;
+    }
+    .frame-parent {
+      gap: 27px 0;
+    }
+    .booking-section {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .phone-label {
+      padding-left: 64px;
+      padding-right: var(--padding-41xl);
+      box-sizing: border-box;
+    }
+    .about-us {
+      gap: 17px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .about-parent {
+      display: none;
+    }
+    .frame-group {
+      gap: 0 41px;
+    }
+    .nice-to-meet-container {
+      font-size: var(--font-size-5xl);
+    }
+    .nice-to-meet-you-we-akshata-p-wrapper {
+      padding-top: 61px;
+      box-sizing: border-box;
+    }
+    .header-group {
+      gap: 0 21px;
+    }
+    .screenshot-2024-03-11-150435-1-wrapper {
+      padding-bottom: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .services1 {
+      font-size: var(--font-size-11xl);
+    }
+    .book-cake-services,
+    .book-photography-services,
+    .book-wedding-venues,
+    .contact-number-,
+    .contact-us- {
+      font-size: var(--font-size-lg);
+    }
+    .phone-label {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+      color: black;
+    }
+  }
+

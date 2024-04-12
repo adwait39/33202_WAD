@@ -1,0 +1,72 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="text-center">
+            <h1 class="welcome">
+              Sign up as <span class="admin-text">User</span>
+            </h1>
+
+            <h5 class="subheading">You can Sign Up here!</h5>
+          </div>
+          <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+            <div class="mb-3">
+              <div class="required">
+              <label class="form-label">Email address</label>
+              </div>
+              <input
+                formControlName="email"
+                required="*"
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                placeholder="Email address"
+              />
+            </div>
+            <div class="mb-3">
+              <div class="required">
+              <label class="form-label">Name</label>
+            </div>
+              <input
+                formControlName="name"
+                type="text"
+                class="form-control"
+                id="exampleInputName1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone Number</label>
+              <input
+                formControlName="mobile"
+                type="number"
+                class="form-control"
+                id="exampleInputPhone1"
+                placeholder="Phone"
+              />
+            </div>
+            <div class="mb-3">
+              <div class="required">
+              <label class="form-label">Password</label>
+            </div>
+              <input
+                formControlName="password"
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary" id="signup-btn">
+              Sign Up
+            </button>
+            <a class="other-btn" routerLink="/login"
+              >Already User? Click to Login</a
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

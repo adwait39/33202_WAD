@@ -1,0 +1,236 @@
+.a3p13,
+.nav13 {
+  position: absolute;
+}
+.nav13 {
+  width: 72.22%;
+  top: 32px;
+  right: 13.96%;
+  left: 13.82%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lavender);
+  height: 70px;
+}
+.a3p13 {
+  top: 46px;
+  left: calc(50% - 43px);
+  font-family: var(--font-italiana);
+  display: inline-block;
+  width: 86px;
+  height: 40px;
+}
+.about13,
+.gallery13 {
+  top: 0;
+  display: inline-block;
+}
+.about13 {
+  position: absolute;
+  right: 222px;
+  width: 180px;
+  height: 23px;
+}
+.gallery13 {
+  right: 227px;
+  width: 77px;
+}
+.about-parent8,
+.gallery13,
+.services14 {
+  position: absolute;
+  height: 23px;
+}
+.services14 {
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 190px;
+}
+.about-parent8 {
+  top: 54px;
+  right: 926px;
+  width: 289px;
+  font-size: var(--font-size-6xl);
+}
+.prof-1-icon12 {
+  position: absolute;
+  top: 45px;
+  right: 248px;
+  width: 44px;
+  height: 44.5px;
+  object-fit: cover;
+}
+.left3,
+.right3 {
+  width: 27.5%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lavender);
+  height: 701px;
+}
+.left3 {
+  position: absolute;
+  top: 258px;
+  right: 67.71%;
+  left: 4.79%;
+}
+.right3 {
+  top: 256px;
+  right: 4.79%;
+  left: 67.71%;
+}
+.cake2,
+.mid3,
+.right3 {
+  position: absolute;
+}
+.mid3 {
+  width: 27.5%;
+  top: 256px;
+  right: 36.25%;
+  left: 36.25%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lavender);
+  height: 701px;
+}
+.cake2 {
+  top: 164px;
+  left: calc(50% - 44px);
+  font-weight: 600;
+  display: inline-block;
+  width: 87px;
+  height: 30px;
+}
+.cake-shop-rafiki-17,
+.studio-photographer-bro-17,
+.wedding-planner-amico-14 {
+  position: absolute;
+  width: 19.38%;
+  top: 330px;
+  right: 71.74%;
+  left: 8.89%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 279px;
+  object-fit: cover;
+}
+.cake-shop-rafiki-17,
+.studio-photographer-bro-17 {
+  width: 21.32%;
+  top: 308px;
+  right: 39.03%;
+  left: 39.65%;
+  height: 307px;
+}
+.cake-shop-rafiki-17 {
+  width: 19.51%;
+  top: 334px;
+  right: 8.68%;
+  left: 71.81%;
+  height: 281px;
+  object-fit: contain;
+}
+
+.book-now15 {
+    position: absolute;
+    top: 22px;
+    left: 8.8%;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fdfdfd; /* Button background color */
+    color: #090909; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 30px; /* Adjust font size as needed */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+}
+.group-child12,
+.rectangle-parent15 {
+  position: absolute;
+  width: 15%;
+  top: 819px;
+  right: 73.68%;
+  left: 11.32%;
+  height: 75px;
+}
+
+.book-now16 {
+    position: absolute;
+    top: 22px;
+    left: 8.8%;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fdfdfd; /* Button background color */
+    color: #090909; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 30px; /* Adjust font size as needed */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+}
+.group-child13,
+.rectangle-parent16 {
+  position: absolute;
+  width: 15%;
+  top: 823px;
+  right: 42.5%;
+  left: 42.5%;
+  height: 75px;
+}
+
+.book-now17 {
+    position: absolute;
+    top: 22px;
+    left: 8.8%;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fdfdfd; /* Button background color */
+    color: #090909; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 30px; /* Adjust font size as needed */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+}
+.rectangle-parent17 {
+  position: absolute;
+  width: 15%;
+  top: 823px;
+  right: 11.04%;
+  left: 73.96%;
+  height: 75px;
+}
+.location-mumbai5,
+.location-nashik5,
+.location-pune5 {
+  position: absolute;
+  top: 664px;
+  left: 10%;
+  font-weight: 600;
+}
+.location-mumbai5,
+.location-nashik5 {
+  left: 40.07%;
+}
+.location-mumbai5 {
+  top: 666px;
+  left: 70.97%;
+  text-align: center;
+}
+.cake1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1017px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-josefin-slab);
+}

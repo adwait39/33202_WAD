@@ -1,0 +1,267 @@
+.nav13 {
+    height: 70px;
+    width: 1040px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    display: none;
+    max-width: 100%;
+  }
+  .about13,
+  .gallery13,
+  .services14 {
+    position: relative;
+    z-index: 1;
+  }
+  .gallery13,
+  .services14 {
+    flex: 1;
+  }
+  .about-gallery-services1,
+  .parent-node-a {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about-gallery-services1 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 30px;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-black);
+    font-family: var(--font-josefin-slab);
+  }
+  .parent-node-a {
+    width: 289px;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+  }
+  .a3p13 {
+    align-self: stretch;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .about-section,
+  .empty-frame {
+    display: flex;
+    align-items: flex-start;
+  }
+  .about-section {
+    align-self: stretch;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .empty-frame {
+    height: 41px;
+    width: 538px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .prof-1-icon12 {
+    height: 44.5px;
+    width: 44px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .nav-group,
+  .w-andar-ka3-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .nav-group {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    justify-content: space-between;
+    padding: var(--padding-smi) var(--padding-8xl) var(--padding-smi-5)
+      var(--padding-7xl);
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-italiana);
+  }
+  .w-andar-ka3-inner {
+    width: 1198px;
+    justify-content: flex-start;
+    padding: 0 79px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+  }
+  .wedding-planner-amico-22 {
+    height: 654px;
+    width: 505px;
+    position: relative;
+    object-fit: cover;
+    max-width: calc(100% - 778px);
+  }
+  .contact-number-87459280342,
+  .location-mumbai5,
+  .price-300000,
+  .size-50000-sqt {
+    margin: 0;
+  }
+  .location-mumbai-size-container {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+  }
+  .frame-child4 {
+    height: 75px;
+    width: 216px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+  }
+  .book-now17 {
+    position: relative;
+    font-size: var(--font-size-21xl);
+    font-weight: 600;
+    font-family: var(--font-josefin-slab);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 1;
+  }
+  .location-mumbai-size-50000-parent,
+  .rectangle-parent16 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent16 {
+    cursor: pointer;
+    border: 1px solid var(--color-black);
+    padding: var(--padding-3xl) var(--padding-lgi) var(--padding-smi);
+    background-color: var(--color-white);
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .rectangle-parent16:hover {
+    background-color: var(--color-gainsboro);
+    border: 1px solid var(--color-darkslategray);
+    box-sizing: border-box;
+  }
+  .location-mumbai-size-50000-parent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 72px 0;
+  }
+  .second-frame {
+    flex: 1;
+    flex-direction: column;
+    padding: 139px 0 0;
+    max-width: calc(100% - 698px);
+    flex-shrink: 0;
+  }
+  .second-frame,
+  .w-andar-ka3,
+  .wedding-planner-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .wedding-planner-frame {
+    align-self: stretch;
+    height: 648px;
+    flex-direction: row;
+    padding: 0 0 202px;
+    gap: 0 193px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-josefin-slab);
+  }
+  .w-andar-ka3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-13xl) 37px 0 var(--padding-101xl);
+    gap: 84px 0;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .w-andar-ka3-inner {
+      padding-left: var(--padding-20xl);
+      padding-right: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .wedding-planner-frame {
+      gap: 0 96px;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .wedding-planner-amico-22 {
+      display: none;
+      max-width: 100%;
+    }
+    .location-mumbai-size-container {
+      font-size: var(--font-size-13xl);
+    }
+    .second-frame {
+      display: none;
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .parent-node-a {
+      display: none;
+    }
+    .location-mumbai-size-50000-parent {
+      gap: 36px 0;
+    }
+    .wedding-planner-frame {
+      gap: 0 48px;
+      padding-bottom: 131px;
+      box-sizing: border-box;
+    }
+    .w-andar-ka3 {
+      gap: 42px 0;
+      padding-left: var(--padding-41xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .location-mumbai-size-container {
+      font-size: var(--font-size-5xl);
+    }
+    .location-mumbai-size-50000-parent {
+      gap: 18px 0;
+    }
+    .second-frame {
+      padding-top: 90px;
+      box-sizing: border-box;
+    }
+    .wedding-planner-frame {
+      gap: 0 24px;
+    }
+    .w-andar-ka3 {
+      gap: 21px 0;
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  

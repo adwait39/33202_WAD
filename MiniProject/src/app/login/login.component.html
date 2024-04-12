@@ -1,0 +1,35 @@
+<body>
+  
+  <div class="row login">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="text-center">
+              <h1><span class="admin-text">User</span> Login Portal</h1>
+              <h5>You can login here!</h5>
+              
+            </div>
+            <form [formGroup]="loginForm" (ngSubmit)="logIn()"> 
+                <div class="mb-3">
+                  <div class="required">
+                  <label class="form-label">Email address</label>
+                  </div>
+                  <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="enter email address" required>
+                </div>
+                <div class="mb-3">
+                  <div class="required">
+                  <label class="form-label">Password</label>
+                </div>
+                  <input  formControlName="password"  type="password" class="form-control" id="exampleInputPassword1" placeholder="enter password" required>
+                </div>
+              
+                <button type="submit" id="login-btn" class="btn btn-primary">Login</button>
+                <span></span>
+                <a class="other-btn"  routerLink="/signup">New User? Click to Sign up</a><span></span>
+                
+              </form>
+             
+  
+        </div>
+    </div>
+  </div>
+  </body>

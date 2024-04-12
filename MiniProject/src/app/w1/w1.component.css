@@ -1,0 +1,266 @@
+.nav5 {
+    height: 70px;
+    width: 1040px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    display: none;
+    max-width: 100%;
+  }
+  .about5,
+  .gallery10,
+  .services8 {
+    position: relative;
+    z-index: 1;
+  }
+  .gallery10,
+  .services8 {
+    flex: 1;
+  }
+  .button,
+  .gallery9 {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .gallery9 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 30px;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-black);
+    font-family: var(--font-josefin-slab);
+  }
+  .button {
+    width: 289px;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+  }
+  .a3p5 {
+    align-self: stretch;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .info-box,
+  .info-box-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  .info-box {
+    align-self: stretch;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .info-box-wrapper {
+    height: 41px;
+    width: 538px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .prof-1-icon4 {
+    height: 44.5px;
+    width: 44px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .nav-container,
+  .w-andar-ka1-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .nav-container {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    justify-content: space-between;
+    padding: var(--padding-smi) var(--padding-8xl) var(--padding-smi-5)
+      var(--padding-7xl);
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-italiana);
+  }
+  .w-andar-ka1-inner {
+    width: 1198px;
+    justify-content: flex-start;
+    padding: 0 79px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+  }
+  .wedding-planner-amico-2 {
+    height: 654px;
+    width: 505px;
+    position: relative;
+    object-fit: cover;
+    max-width: calc(100% - 778px);
+  }
+  .contact-number-0384736428,
+  .location-pune3,
+  .price-100000,
+  .size-20000-sqt {
+    margin: 0;
+  }
+  .location-pune-size-container {
+    align-self: stretch;
+    height: 200px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .frame-child22 {
+    height: 75px;
+    width: 216px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+  }
+  .book-now9 {
+    position: relative;
+    font-size: var(--font-size-21xl);
+    font-weight: 600;
+    font-family: var(--font-josefin-slab);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 1;
+  }
+  .location-details-text,
+  .rectangle-parent14 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent14 {
+    cursor: pointer;
+    border: 1px solid var(--color-black);
+    padding: var(--padding-3xl) var(--padding-lgi) var(--padding-smi);
+    background-color: var(--color-white);
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .rectangle-parent14:hover {
+    background-color: var(--color-gainsboro-100);
+    border: 1px solid var(--color-darkslategray-200);
+    box-sizing: border-box;
+  }
+  .location-details-text {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 32px 0;
+  }
+  .location-frame2 {
+    flex: 1;
+    flex-direction: column;
+    padding: 142px 0 0;
+    max-width: calc(100% - 698px);
+    flex-shrink: 0;
+  }
+  .location-frame2,
+  .secondary-frame,
+  .w-andar-ka1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .secondary-frame {
+    align-self: stretch;
+    height: 651px;
+    flex-direction: row;
+    padding: 0 0 202px;
+    gap: 0 193px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-josefin-slab);
+  }
+  .w-andar-ka1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-13xl) 37px 0 var(--padding-101xl);
+    gap: 81px 0;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .w-andar-ka1-inner {
+      padding-left: var(--padding-20xl);
+      padding-right: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .secondary-frame {
+      gap: 0 96px;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .wedding-planner-amico-2 {
+      display: none;
+      max-width: 100%;
+    }
+    .location-pune-size-container {
+      font-size: var(--font-size-13xl);
+    }
+    .location-frame2 {
+      display: none;
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .button {
+      display: none;
+    }
+    .location-details-text {
+      gap: 16px 0;
+    }
+    .secondary-frame {
+      gap: 0 48px;
+      padding-bottom: 131px;
+      box-sizing: border-box;
+    }
+    .w-andar-ka1 {
+      gap: 40px 0;
+      padding-left: var(--padding-41xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .location-pune-size-container {
+      font-size: var(--font-size-5xl);
+    }
+    .location-frame2 {
+      padding-top: 92px;
+      box-sizing: border-box;
+    }
+    .secondary-frame {
+      gap: 0 24px;
+    }
+    .w-andar-ka1 {
+      gap: 20px 0;
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  

@@ -1,0 +1,17 @@
+.container
+{
+    max-width:1500px;
+    justify-content: center;
+    
+}
+
+.row
+{
+    justify-content: center;
+       
+}
+
+.ev1
+{
+    display: flex;
+}

@@ -1,0 +1,118 @@
+.a3p6,
+.nav6 {
+  position: absolute;
+}
+.nav6 {
+  top: 32px;
+  left: 199px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lavender);
+  width: 1040px;
+  height: 70px;
+}
+.a3p6 {
+  top: 46px;
+  left: 677px;
+  font-family: var(--font-italiana);
+  display: inline-block;
+  width: 86px;
+  height: 40px;
+}
+.about6,
+.gallery6 {
+  top: 0;
+  display: inline-block;
+}
+.about6 {
+  position: absolute;
+  left: 0;
+  width: 67px;
+  height: 23px;
+}
+.gallery6 {
+  left: 97px;
+  width: 77px;
+}
+.about-parent3,
+.gallery6,
+.services6 {
+  position: absolute;
+  height: 23px;
+}
+.services6 {
+  top: 0;
+  left: 204px;
+  display: inline-block;
+  width: 85px;
+}
+.about-parent3 {
+  top: 54px;
+  left: 225px;
+  width: 289px;
+  font-size: var(--font-size-6xl);
+}
+.prof-1-icon6 {
+  position: absolute;
+  top: 45px;
+  left: 1168px;
+  width: 44px;
+  height: 44.5px;
+  object-fit: cover;
+}
+.contact-number-87459280341,
+.location-mumbai1,
+.price-30001 {
+  margin: 0;
+}
+.location-mumbai-contact-container1 {
+  position: absolute;
+  top: 325px;
+  left: 818px;
+  font-weight: 600;
+  display: inline-block;
+  width: 585px;
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 216px;
+  height: 75px;
+}
+.book-now5 {
+  position: absolute;
+  top: 22px;
+  left: 19px;
+  font-weight: 600;
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 557px;
+  left: 818px;
+  width: 216px;
+  height: 75px;
+}
+.cake-shop-rafiki-13 {
+  position: absolute;
+  top: 156px;
+  left: 70px;
+  width: 693px;
+  height: 663.2px;
+  object-fit: contain;
+}
+.c-andar-ka3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 834px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-josefin-slab);
+}

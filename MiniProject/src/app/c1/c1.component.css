@@ -1,0 +1,118 @@
+.a3p2,
+.nav2 {
+  position: absolute;
+}
+.nav2 {
+  top: 32px;
+  left: 199px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lavender);
+  width: 1040px;
+  height: 70px;
+}
+.a3p2 {
+  top: 46px;
+  left: 677px;
+  font-family: var(--font-italiana);
+  display: inline-block;
+  width: 86px;
+  height: 40px;
+}
+.about2,
+.gallery2 {
+  top: 0;
+  display: inline-block;
+}
+.about2 {
+  position: absolute;
+  left: 0;
+  width: 67px;
+  height: 23px;
+}
+.gallery2 {
+  left: 97px;
+  width: 77px;
+}
+.about-group,
+.gallery2,
+.services2 {
+  position: absolute;
+  height: 23px;
+}
+.services2 {
+  top: 0;
+  left: 204px;
+  display: inline-block;
+  width: 85px;
+}
+.about-group {
+  top: 54px;
+  left: 225px;
+  width: 289px;
+  font-size: var(--font-size-6xl);
+}
+.prof-1-icon2 {
+  position: absolute;
+  top: 45px;
+  left: 1168px;
+  width: 44px;
+  height: 44.5px;
+  object-fit: cover;
+}
+.contact-number-03847364281,
+.location-pune1,
+.price-10001 {
+  margin: 0;
+}
+.location-pune-contact-container1 {
+  position: absolute;
+  top: 325px;
+  left: 818px;
+  font-weight: 600;
+  display: inline-block;
+  width: 585px;
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 216px;
+  height: 75px;
+}
+.book-now1 {
+  position: absolute;
+  top: 22px;
+  left: 19px;
+  font-weight: 600;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 557px;
+  left: 818px;
+  width: 216px;
+  height: 75px;
+}
+.cake-shop-rafiki-11 {
+  position: absolute;
+  top: 156px;
+  left: 70px;
+  width: 693px;
+  height: 663.2px;
+  object-fit: contain;
+}
+.c-andar-ka1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 834px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-josefin-slab);
+}

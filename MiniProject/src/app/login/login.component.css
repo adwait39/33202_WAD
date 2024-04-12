@@ -1,0 +1,112 @@
+.card {
+    position: relative;
+    left: 50%;
+    margin-top: 10%;
+    /* border: 2px solid   ; */
+    border-radius: 15px;
+    padding: 55px;
+    background-color: #fff;
+    transition: .8s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  filter: drop-shadow(0 0 0.75rem rgb(234, 99, 227));
+  }
+  
+  body {
+    background-image: url("./2.gif");
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .card:hover {
+    transform: scaleX(1.05) scaleY(1.05);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .required:after {
+    content:" *";
+    color: red;
+  }
+  
+  .welcome {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: 700;
+  }
+  
+  .btn-primary {
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .homepage-link,
+  .signup-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .homepage-link:hover,
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  .form-control {
+    border: 2px solid #000;
+    border-radius: 10px;
+  }
+  
+  #login-btn {
+    background-color: #290330;
+    border-radius: 15px;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding: 10px 15px;
+  }
+  
+  #login-btn:hover {
+   
+    background-color: #402044;
+    box-shadow: rgba(14, 30, 37, .12) 0 2px 4px 0, rgba(14, 30, 37, .32) 0 2px 16px 0;
+  }
+  
+  .other-btn {
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #290330;
+    text-decoration: none;
+    
+  }
+  
+  .other-btn:hover {
+   
+    background-color: #402044;
+    box-shadow: rgba(14, 30, 37, .12) 0 2px 4px 0, rgba(14, 30, 37, .32) 0 2px 16px 0;
+  }
+  
+  #exampleInputPassword1 {
+    margin-bottom: 30px;
+  }
+  
+  .admin-text {
+    /* text-shadow: 1px 0 10px rgb(233, 104, 233); */
+    color: #8712e7;
+  }
